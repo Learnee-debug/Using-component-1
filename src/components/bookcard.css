@@ -1,0 +1,23 @@
+.book-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    max-width: 200px; /* Limit card width */
+}
+
+.book-image {
+    width: 100%; /* Make image responsive */
+    height: 200px; /* Set fixed height */
+    object-fit: cover; /* Ensure it covers the area */
+    border-radius: 5px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* Center the books */
+}
